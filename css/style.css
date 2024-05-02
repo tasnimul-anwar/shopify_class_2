@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    width: 1200px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: "Sedgwick Ave Display", cursive;
+    color: rgb(237, 171, 171);
+    font-weight: 400;
+    font-size: 40px;
+    background-color: black;
+    margin: 0;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.header p{
+    font-size: 20px;
+    margin: 0;
+    padding: 20px 30px;
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.container{
+    /* background-color: rgb(182, 238, 238); */
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.col_1 h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.col_1{
+    /* background-color: rgb(157, 249, 169); */
+    flex-basis: 50%;
+    padding-right: 20px;
+}
+.col_2{
+    flex-basis: 50%;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.info{
+    background-color: rgb(188, 194, 199);
+    padding: 50px;
+    height: 100%;
+}
